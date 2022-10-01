@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Kantor Walut Międzynarodowych</title>
+</head>
+
+<body>
+    <form class="form js-form">
+        <h1 class="form__headerTitle"> Internetowy Kantor Walut</h1>
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Kalkulator Walut</legend>
+            <p class="form__paragraph">
+                Żeby przeliczyć musisz zaznaczyć walutę.
+            </p>
+            <p class="form__paragraph">
+                Pola oznaczone <span class="form__fieldset--star">*</span> są wymagane.
+            </p>
+        </fieldset>
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Wybierz walutę</legend>
+            <p class="form__paragraph">
+                <label class="form__label">
+                    <span class="form__nameCurrency">EURO 4.85</span> <input type="radio" name="currency" required
+                        value="4.85" class="form_input js-euro">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">DOLAR 4.95</span> <input type="radio" name="currency" required
+                        value="4.95" class="form_input js-dolar">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">GBP 5.49</span> <input type="radio" name="currency" required
+                        value="5.49" class="form_input js-gbp">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">CHF 5.07</span> <input type="radio" name="currency" required
+                        value="5.07" class="form_input js-chf">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">CZK 0.2</span> <input type="radio" name="currency" required
+                        value="0.20" class="form_input js-czk">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset class="form__fieldset">
+            <p class="form__paragraph">
+                <legend class="form__legend"> Wpisz kwotę PLN</legend>
+            </p>
+            <p class="form__paragraph">
+                <label class="form__label">
+                    Wpisz kwotę PLN,jaką chcesz wymienić<span class="form__fieldset--star">*</span>: <input
+                        class="form__input js-pln" type="number" maxlength="10" minlength="2" required>
+                </label>
+            </p>
+            <p class="form__currency--summary">
+                Kwota którą otrzymasz o: <span class="form__finished">N/A</span> kurs waluty to <span
+                    class="js-currencyValue">N/A</span>
+            </p>
+        </fieldset>
+        <button class="form__button js-button" value="reset" type="reset"> Wyczyść pole kwota</button>
+    </form>
+
+    <form class="form js-formpln">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Wybierz walutę na którą chcesz wymienić PLN</legend>
+            <p class="form__paragraph">
+                <label class="form__label">
+                    <span class="form__nameCurrency">EURO 4.85</span> <input type="radio" name="currency" required
+                        value="4.85" class="form_input js-euro js-europln">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">DOLAR 4.95</span> <input type="radio" name="currency" required
+                        value="4.95" class="form_input js-dolar js-dolarpln">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">GBP 5.49</span> <input type="radio" name="currency" required
+                        value="5.49" class="form_input js-gbp js-gbppln">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">CHF 5.07</span> <input type="radio" name="currency" required
+                        value="5.07" class="form_input js-chf js-chfpln">
+                </label>
+                <label class="form__label">
+                    <span class="form__nameCurrency">CZK 0.2</span> <input type="radio" name="currency" required
+                        value="0.20" class="form_input js-czk js-czkpln">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset class="form__fieldset">
+            <p class="form__paragraph">
+                <legend class="form__legend"> Wpisz kwotę aby wymienić na wybraną walutę</legend>
+            </p>
+            <p class="form__paragraph">
+                <label class="form__label">
+                    Wpisz kwotę <span class="js-currencyValuepln"></span>,jaką chcesz wymienić<span
+                        class="form__fieldset--star">*</span>: <input class="form__input js-how" type="number"
+                        maxlength="10" minlength="2" required>
+                </label>
+            </p>
+            <p class="form__currency--summary">
+                Kwota którą otrzymasz to: <span class="form__finishedpln js-form__finishedpln">N/A</span> kurs waluty to
+                <span class="js-currencyValueplne"></span>
+            </p>
+        </fieldset>
+
+        <button class="form__button js-buttonpln" value="reset" type="reset"> Wyczyść pole kwota</button>
+    </form>
+
+</body>
+
+</html>

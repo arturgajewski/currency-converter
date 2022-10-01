@@ -1,0 +1,141 @@
+html {
+    box-sizing: border-box;
+    word-break: break-word;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.form {
+    max-width: 1000px;
+    margin: 10px auto;
+
+}
+
+.form__headerTitle {
+    text-align: center;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.form__fieldset {
+    border: none;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.form__legend {
+    background-color: rgb(255, 195, 55);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 2px 2px 5px #4c4c4c;
+    box-shadow: 3px 3px 5px #4c4c4c;
+}
+
+.form__fieldset--paragraph .form__paragraph {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #222;
+    text-shadow: 2px 2px 5px #4c4c4c;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.form__fieldset__paragraph--special {
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.form__fieldset--star {
+    color: red;
+}
+
+.form__label {
+    background-color: teal;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.form__label:hover {
+    background-color: hsl(180, 100%, 35%);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.form__nameCurrency {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 20px;
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.form__input {
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form__currency--summary {
+    margin-top: 40px;
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(255, 195, 55);
+    color: #fff;
+    box-shadow: 3px 3px 5px #4c4c4c;
+    text-shadow: 2px 2px 5px #4c4c4c;
+}
+
+.form__finished {
+    font-weight: 900;
+    color: #ffffff
+}
+
+.form__button {
+    background-color: teal;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 3px 3px 5px #4c4c4c;
+    text-shadow: 2px 2px 5px #4c4c4c;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 35%);
+}

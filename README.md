@@ -2,7 +2,7 @@
 This is my first currency-converter for learning javasrcipt with you-code.pl
 
 ## DEMO
-(https://arturgajewski.github.io/homepage/)
+(https://arturgajewski.github.io/currency-converter/)
 
 ### How it work
 If you want exchange your money from EURO to PLN (Poland money),you can use this for to know how money you will have in PLN (Poland money).

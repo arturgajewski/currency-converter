@@ -1,16 +1,17 @@
 {
   const formElement = document.querySelector(".js-form");
   const formFinished = document.querySelector(".form__finished");
-  const formCurrency = document.querySelector(".js-currencyValue");
-  const elementDOLAR = document.querySelector(".js-dolar");
-  const elementEURO = document.querySelector(".js-euro");
-  const elementCHF = document.querySelector(".js-chf");
-  const elementGBP = document.querySelector(".js-gbp");
-  const elementPLN = document.querySelector(".js-pln");
-  const elementCZK = document.querySelector(".js-czk");
   const resetButton = document.querySelector(".js-button");
 
   const exchangePLNtoEURO = () => {
+    const formCurrency = document.querySelector(".js-currencyValue");
+    const elementDOLAR = document.querySelector(".js-dolar");
+    const elementEURO = document.querySelector(".js-euro");
+    const elementCHF = document.querySelector(".js-chf");
+    const elementGBP = document.querySelector(".js-gbp");
+    const elementPLN = document.querySelector(".js-pln");
+    const elementCZK = document.querySelector(".js-czk");
+
     pln = +elementPLN.value;
     usd = +elementDOLAR.value;
     euro = +elementEURO.value;
@@ -51,17 +52,18 @@
 {
   const formElement = document.querySelector(".js-formPln");
   const formFinished = document.querySelector(".js-form__finishedPln");
-  const formCurrency = document.querySelector(".js-currencyNamePln");
-  const formCurrencyName = document.querySelector(".js-currencyName");
-  const elementDOLAR = document.querySelector(".js-dolarPln");
-  const elementEURO = document.querySelector(".js-euroPln");
-  const elementCHF = document.querySelector(".js-chfPln");
-  const elementGBP = document.querySelector(".js-gbpPln");
-  const element = document.querySelector(".js-how");
-  const elementCZK = document.querySelector(".js-czkPln");
   const resetButton = document.querySelector(".js-buttonPln");
 
   const exchangeCurrencyToPLN = () => {
+    const formCurrency = document.querySelector(".js-currencyNamePln");
+    const formCurrencyName = document.querySelector(".js-currencyName");
+    const elementDOLAR = document.querySelector(".js-dolarPln");
+    const elementEURO = document.querySelector(".js-euroPln");
+    const elementCHF = document.querySelector(".js-chfPln");
+    const elementGBP = document.querySelector(".js-gbpPln");
+    const element = document.querySelector(".js-how");
+    const elementCZK = document.querySelector(".js-czkPln");
+
     pln = +element.value;
     usd = +elementDOLAR.value;
     euro = +elementEURO.value;

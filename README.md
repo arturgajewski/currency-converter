@@ -1,21 +1,23 @@
-#1 currency-converter
-This is my first currency-converter for learning javasrcipt with you-code.pl
+# Welcome in Currency-Converter
+currency-converter This is my first currency-converter for learning javasrcipt with you-code.pl
 
-## DEMO
-(https://arturgajewski.github.io/currency-converter/)
+## DEMO WEBSITE
 
-### How it work
-If you want exchange your money from EURO to PLN (Poland money),you can use this for to know how money you will have in PLN (Poland money).
-You can too exchange your money from PLN (Poland money) to for example EURO then you will know how money you will have in dolars(USD) :)
+[DEMO](https://github.com/arturgajewski/currency-converter)
 
-#### How build
+## PREVIEW
+![this is the preview currency converter,you can see how it work](https://raw.githubusercontent.com/arturgajewski/currency-converter/main/images/currencyconverter.gif)
+## HOW IT WORK?
 
-1. HTML
-- Two form
-2. CSS
-- To better preview website
-3. Javasrcipt
-- For usage currency exchange
+If you want exchange your money from EURO to PLN (Poland money),you can use this for to know how money you will have in PLN (Poland money). You can too exchange your money from PLN (Poland money) to for example EURO then you will know how money you will have in dolars(USD) :)
 
-##### Author
-Artur Gajewski
+##  Used Technologies
+
+### To build this application i used
+1.  Semantic HTML
+2.  CSS
+3.  BEM convenction
+4.  ES6+
+
+## AUTHOR 
+### ARTUR GAJEWSKI

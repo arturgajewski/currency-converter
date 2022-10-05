@@ -1,3 +1,9 @@
+ - [DEMO](https://github.com/arturgajewski/currency-converter#demo-website)
+ - [PREVIEW](https://github.com/arturgajewski/currency-converter#preview)
+ - [HOWITWORK](https://github.com/arturgajewski/currency-converter#how-it-work)
+ - [USED TECHNOLOGIES](https://github.com/arturgajewski/currency-converter#used-technologies)
+ - [AUTHOR](https://github.com/arturgajewski/currency-converter#author)
+
 # Welcome in Currency-Converter
 ![This is my first currency-converter for learning javasrcipt with you-code.pl](https://raw.githubusercontent.com/arturgajewski/currency-converter/main/images/currency-converter_image.png)
 

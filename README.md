@@ -1,5 +1,5 @@
 # Welcome in Currency-Converter
-currency-converter This is my first currency-converter for learning javasrcipt with you-code.pl
+![This is my first currency-converter for learning javasrcipt with you-code.pl](https://raw.githubusercontent.com/arturgajewski/currency-converter/main/images/currency-converter_image.png)
 
 ## DEMO WEBSITE
 

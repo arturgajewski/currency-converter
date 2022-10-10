@@ -9,7 +9,7 @@
 
 ## DEMO WEBSITE
 
-[DEMO](https://github.com/arturgajewski/currency-converter)
+[DEMO](https://arturgajewski.github.io/currency-converter/)
 
 ## PREVIEW
 ![this is the preview currency converter,you can see how it work](https://raw.githubusercontent.com/arturgajewski/currency-converter/main/images/currencyconverter.gif)

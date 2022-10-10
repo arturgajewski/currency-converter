@@ -24,6 +24,7 @@ If you want exchange your money from EURO to PLN (Poland money),you can use this
 2.  CSS
 3.  BEM convenction
 4.  ES6+
+5.  RWD (Media Queries)
 
 ## AUTHOR 
 ### ARTUR GAJEWSKI
